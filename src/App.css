@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
 
 * {
   margin: 0;
@@ -38,7 +38,7 @@ html, body, #root {
 
 .title {
   position: absolute;
-  font-family: 'Jacquard 12 Charted', serif;
+  font-family: 'Jacquard 12', serif;
   font-size: clamp(4rem, 12vw, 10rem);
   font-weight: 400;
   color: #e8e0d4;
