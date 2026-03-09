@@ -36,6 +36,19 @@ html, body, #root {
   pointer-events: none;
 }
 
+.vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 30%,
+    rgba(10, 10, 10, 0.25) 60%,
+    rgba(10, 10, 10, 0.6) 100%
+  );
+  pointer-events: none;
+  z-index: 5;
+}
+
 .title {
   position: absolute;
   font-family: 'Jacquard 12', serif;

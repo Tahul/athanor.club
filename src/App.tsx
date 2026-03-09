@@ -23,6 +23,7 @@ function App() {
           fit="cover"
         />
       </div>
+      <div className="vignette" />
       <h1 className="title">
         {title.split('').map((char, i) => (
           <motion.span
