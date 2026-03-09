@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=IBM+Plex+Mono:wght@300;400&display=swap');
 
 * {
   margin: 0;
@@ -48,4 +48,18 @@ html, body, #root {
   text-shadow:
     0 0 40px rgba(232, 224, 212, 0.3),
     0 0 80px rgba(232, 224, 212, 0.1);
+}
+
+.subtitle {
+  position: absolute;
+  z-index: 10;
+  margin-top: clamp(5rem, 14vw, 12rem);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(0.75rem, 1.8vw, 1.1rem);
+  font-weight: 300;
+  color: #b8b0a4;
+  letter-spacing: 0.2em;
+  text-transform: lowercase;
+  display: flex;
+  gap: 0.5em;
 }
